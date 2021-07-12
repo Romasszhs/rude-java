@@ -8,6 +8,9 @@ import 'element-ui/lib/theme-chalk/index.css';
 // 导入font-awesome(导入就可以直接用了)
 import 'font-awesome/scss/font-awesome.scss'
 
+import axios from 'axios'
+Vue.prototype.$axios=axios
+
 // 使用ElementUI
 Vue.use(ElementUI);
 

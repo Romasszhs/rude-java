@@ -8,6 +8,10 @@
                     <a href="#" @click="changeCollapse" style="font-size: 25px;color:#909399;"><i
                             :class="collpaseIcon"></i></a>
                 </el-col>
+                <el-col >
+                    <a>登录</a>
+                    <a>注册</a>
+                </el-col>
             </el-row>
         </el-header>
         <!--中央区域-->
